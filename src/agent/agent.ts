@@ -4,8 +4,8 @@ import { type Message, createMessage } from "./message"
 import type { Tool, ToolCall } from "./types"
 import { defaultTools } from "./tools"
 
-const MAX_ITERATIONS = 10
 const TOOL_TIMEOUT_MS = 30_000
+const DOOM_LOOP_THRESHOLD = 3
 
 export interface AgentConfig {
   model?: string
@@ -108,12 +108,10 @@ export class Agent {
     content: string
     message?: Message
   }> {
-    let step = 0
     const workingHistory: Message[] = [...history]
+    const recentToolCalls: { name: string; args: string }[] = []
 
-    while (step < MAX_ITERATIONS) {
-      step++
-
+    while (true) {
       const stream = await this.client.chat.completions.create({
         model: this.model,
         messages: this.buildMessages(workingHistory),
@@ -168,6 +166,39 @@ export class Agent {
             name: buffer.name,
             arguments: parsedArgs,
           })
+        }
+
+        // Doom loop detection
+        for (const toolCall of toolCalls) {
+          const callSignature = { name: toolCall.name, args: JSON.stringify(toolCall.arguments) }
+          recentToolCalls.push(callSignature)
+
+          const lastN = recentToolCalls.slice(-DOOM_LOOP_THRESHOLD)
+          if (
+            lastN.length === DOOM_LOOP_THRESHOLD &&
+            lastN.every(c => c.name === callSignature.name && c.args === callSignature.args)
+          ) {
+            yield { type: "text", content: "\n[Detected repeated tool calls - generating response...]\n" }
+            
+            const finalMessages = [
+              ...this.buildMessages(workingHistory),
+              { role: "user" as const, content: "You seem to be stuck in a loop. Please provide your answer now based on what you've found so far." }
+            ]
+
+            const finalStream = await this.client.chat.completions.create({
+              model: this.model,
+              messages: finalMessages,
+              stream: true,
+            })
+
+            for await (const chunk of finalStream) {
+              const choice = chunk.choices[0]
+              if (choice?.delta?.content) {
+                yield { type: "text", content: choice.delta.content }
+              }
+            }
+            return
+          }
         }
 
         const toolCallMessage = createMessage({

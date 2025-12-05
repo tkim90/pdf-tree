@@ -55,10 +55,27 @@ export const searchHeadings: Tool = {
       return JSON.stringify({ error: "Missing required field: query" })
     }
 
-    const searchTerms = query.toLowerCase().split(/\s+/)
+    // Extract section number if present (e.g., "section 16.1" → "16.1")
+    const sectionMatch = query.match(/(?:section\s*)?(\d+(?:\.\d+)?)/i)
+    const sectionNumber = sectionMatch?.[1]
+
+    const searchTerms = query.toLowerCase()
+      .replace(/^section\s*/i, '')
+      .split(/\s+/)
+      .filter(term => term.length > 0)
     
     const matches = data.headings.filter((h) => {
       const headingLower = h.heading.toLowerCase()
+      
+      // If query contains a section number, check if heading starts with it
+      if (sectionNumber) {
+        const sectionPattern = new RegExp(`^${sectionNumber.replace('.', '\\.')}[.:\\s]`, 'i')
+        if (sectionPattern.test(h.heading)) {
+          return true
+        }
+      }
+      
+      // Fall back to keyword matching
       return searchTerms.some((term) => headingLower.includes(term))
     })
 
