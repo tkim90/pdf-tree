@@ -9,7 +9,7 @@ import type { SemanticTree } from "../schemas/tree";
 export async function indexPdf(pdfUrl: string): Promise<SemanticTree> {
   console.log("Parsing PDF with Extend API...");
   const parsed = await parseWithExtend(pdfUrl);
-  console.log(`Parsed ${parsed.chunks.length} pages`);
+  console.log(`Parsed ${parsed.blocks.length} blocks`);
 
   console.log("Extracting title and summary...");
   const { title, summary } = await extractTitleAndSummary(parsed);
@@ -26,6 +26,7 @@ export async function indexPdf(pdfUrl: string): Promise<SemanticTree> {
   return {
     title,
     summary,
+    blocks: parsed.blocks,
     headings,
     sections,
   };

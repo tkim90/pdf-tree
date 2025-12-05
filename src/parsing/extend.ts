@@ -1,13 +1,23 @@
-import type { Chunk } from "../schemas/tree";
+import type { Block, BoundingBox } from "../schemas/tree";
 
 export interface ParsedDocument {
-  chunks: Chunk[];
+  blocks: Block[];
   rawContent: string;
+}
+
+interface ExtendBoundingBox {
+  left?: number;
+  top?: number;
+  right?: number;
+  bottom?: number;
+  width?: number;
+  height?: number;
 }
 
 interface ExtendBlock {
   type: string;
   content: string;
+  boundingBox?: ExtendBoundingBox;
   metadata?: {
     pageNumber?: number;
   };
@@ -23,6 +33,21 @@ interface ExtendChunk {
 
 interface ExtendParseResponse {
   chunks: ExtendChunk[];
+}
+
+function convertBoundingBox(bb?: ExtendBoundingBox): BoundingBox | null {
+  if (!bb) return null;
+
+  const x = bb.left ?? 0;
+  const y = bb.top ?? 0;
+  const width = bb.width ?? (bb.right !== undefined ? bb.right - x : 0);
+  const height = bb.height ?? (bb.bottom !== undefined ? bb.bottom - y : 0);
+
+  if (width === 0 && height === 0 && x === 0 && y === 0) {
+    return null;
+  }
+
+  return { x, y, width, height };
 }
 
 export async function parseWithExtend(pdfUrl: string): Promise<ParsedDocument> {
@@ -76,12 +101,24 @@ export async function parseWithExtend(pdfUrl: string): Promise<ParsedDocument> {
 
   const data = (await response.json()) as ExtendParseResponse;
 
-  const chunks: Chunk[] = data.chunks.map((chunk, index) => ({
-    content: chunk.content,
-    page: chunk.metadata?.pageNumber ?? index + 1,
-  }));
+  const blocks: Block[] = [];
+  let blockIndex = 0;
 
-  const rawContent = chunks.map((c) => c.content).join("\n\n");
+  for (const chunk of data.chunks) {
+    const pageNumber = chunk.metadata?.pageNumber ?? blockIndex + 1;
 
-  return { chunks, rawContent };
+    for (const block of chunk.blocks) {
+      blocks.push({
+        id: `block-${blockIndex++}`,
+        content: block.content,
+        page: block.metadata?.pageNumber ?? pageNumber,
+        type: block.type,
+        boundingBox: convertBoundingBox(block.boundingBox),
+      });
+    }
+  }
+
+  const rawContent = blocks.map((b) => b.content).join("\n\n");
+
+  return { blocks, rawContent };
 }
