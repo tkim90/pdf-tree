@@ -1,37 +1,56 @@
 import type { Tool } from "./types"
 import semanticTree from "../../semantic-tree.json"
 
-interface Block {
+interface Chunk {
   id: string
   content: string
-  page: number
-  type: string
+  pageStart: number
+  pageEnd: number
+  blockIds: string[]
 }
 
 interface Heading {
   heading: string
   level: number
-  blockIds: string[]
+  chunkIds: string[]
 }
 
 interface Section {
   section: string
-  blockIds: string[]
+  chunkIds: string[]
 }
 
 interface SemanticTree {
   title: string
   summary: string
-  blocks: Block[]
+  chunks: Chunk[]
   headings: Heading[]
   sections: Section[]
 }
 
-const data = semanticTree as SemanticTree
+const data = semanticTree as unknown as SemanticTree
 
-const blockMap = new Map<string, Block>(
-  data.blocks.map((b) => [b.id, b])
+const chunkMap = new Map<string, Chunk>(
+  data.chunks.map((c) => [c.id, c])
 )
+
+export const getDocSummary: Tool = {
+  definition: {
+    name: "get_doc_summary",
+    description: "Get the document's title and summary. Use this first to understand what the document is about.",
+    parameters: {
+      type: "object",
+      properties: {},
+      required: [],
+    },
+  },
+  execute: async () => {
+    return JSON.stringify({
+      title: data.title,
+      summary: data.summary,
+    })
+  },
+}
 
 export const searchHeadings: Tool = {
   definition: {
@@ -93,7 +112,7 @@ export const searchHeadings: Tool = {
       headings: matches.map((h) => ({
         heading: h.heading,
         level: h.level,
-        blockIds: h.blockIds,
+        chunkIds: h.chunkIds,
       })),
     })
   },
@@ -103,7 +122,7 @@ export const searchSections: Tool = {
   definition: {
     name: "search_sections",
     description:
-      "Look up a specific section by its section number. Returns the block IDs associated with that section. Use section numbers like '1', '4.7', '15.2', etc.",
+      "Look up a specific section by its section number. Returns the chunk IDs associated with that section. Use section numbers like '1', '4.7', '15.2', etc.",
     parameters: {
       type: "object",
       properties: {
@@ -137,45 +156,47 @@ export const searchSections: Tool = {
     return JSON.stringify({
       found: true,
       section: section.section,
-      blockIds: section.blockIds,
-      blockCount: section.blockIds.length,
+      chunkIds: section.chunkIds,
+      chunkCount: section.chunkIds.length,
     })
   },
 }
 
-export const getBlocks: Tool = {
+export const getChunks: Tool = {
   definition: {
-    name: "get_blocks",
+    name: "get_chunks",
     description:
-      "Retrieve the actual text content for given block IDs. Use this after finding relevant block IDs from search_headings or search_sections.",
+      "Retrieve the actual text content for given chunk IDs. Use this after finding relevant chunk IDs from search_headings or search_sections.",
     parameters: {
       type: "object",
       properties: {
-        block_ids: {
+        chunk_ids: {
           type: "array",
           items: { type: "string" },
-          description: "Array of block IDs to retrieve (e.g., ['block-289', 'block-378'])",
+          description: "Array of chunk IDs to retrieve (e.g., ['chunk-0', 'chunk-5'])",
         },
       },
-      required: ["block_ids"],
+      required: ["chunk_ids"],
     },
   },
   execute: async (args) => {
-    const blockIds = args.block_ids
-    if (!Array.isArray(blockIds)) {
-      return JSON.stringify({ error: "Missing required field: block_ids (must be an array)" })
+    const chunkIds = args.chunk_ids
+    if (!Array.isArray(chunkIds)) {
+      return JSON.stringify({ error: "Missing required field: chunk_ids (must be an array)" })
     }
 
-    const results: { id: string; content: string; page: number }[] = []
+    const results: { id: string; content: string; pageStart: number; pageEnd: number; blockIds: string[] }[] = []
     const notFound: string[] = []
 
-    for (const id of blockIds) {
-      const block = blockMap.get(id)
-      if (block) {
+    for (const id of chunkIds) {
+      const chunk = chunkMap.get(id)
+      if (chunk) {
         results.push({
-          id: block.id,
-          content: block.content,
-          page: block.page,
+          id: chunk.id,
+          content: chunk.content,
+          pageStart: chunk.pageStart,
+          pageEnd: chunk.pageEnd,
+          blockIds: chunk.blockIds,
         })
       } else {
         notFound.push(id)
@@ -184,10 +205,10 @@ export const getBlocks: Tool = {
 
     return JSON.stringify({
       found: results.length,
-      blocks: results,
+      chunks: results,
       ...(notFound.length > 0 && { notFound }),
     })
   },
 }
 
-export const defaultTools: Tool[] = [searchHeadings, searchSections, getBlocks]
+export const defaultTools: Tool[] = [getDocSummary, searchHeadings, searchSections, getChunks]

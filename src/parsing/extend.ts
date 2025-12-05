@@ -1,6 +1,7 @@
-import type { Block, BoundingBox } from "../schemas/tree";
+import type { Block, BoundingBox, Chunk } from "../schemas/tree";
 
 export interface ParsedDocument {
+  chunks: Chunk[];
   blocks: Block[];
   rawContent: string;
 }
@@ -69,9 +70,13 @@ export async function parseWithExtend(pdfUrl: string): Promise<ParsedDocument> {
         fileUrl: pdfUrl,
       },
       config: {
-        target: "spatial",
+        target: "markdown",
         chunkingStrategy: {
-          type: "page",
+          type: "section",
+          options: {
+            minCharacters: 500,
+            maxCharacters: 2000,
+          },
         },
         blockOptions: {
           figures: {
@@ -101,24 +106,43 @@ export async function parseWithExtend(pdfUrl: string): Promise<ParsedDocument> {
 
   const data = (await response.json()) as ExtendParseResponse;
 
+  const chunks: Chunk[] = [];
   const blocks: Block[] = [];
   let blockIndex = 0;
+  let chunkIndex = 0;
 
   for (const chunk of data.chunks) {
-    const pageNumber = chunk.metadata?.pageNumber ?? blockIndex + 1;
+    const chunkBlockIds: string[] = [];
+    let pageStart = Infinity;
+    let pageEnd = 0;
 
     for (const block of chunk.blocks) {
+      const blockId = `block-${blockIndex++}`;
+      const pageNumber = block.metadata?.pageNumber ?? 1;
+
+      chunkBlockIds.push(blockId);
+      pageStart = Math.min(pageStart, pageNumber);
+      pageEnd = Math.max(pageEnd, pageNumber);
+
       blocks.push({
-        id: `block-${blockIndex++}`,
+        id: blockId,
         content: block.content,
-        page: block.metadata?.pageNumber ?? pageNumber,
+        page: pageNumber,
         type: block.type,
         boundingBox: convertBoundingBox(block.boundingBox),
       });
     }
+
+    chunks.push({
+      id: `chunk-${chunkIndex++}`,
+      content: chunk.content,
+      pageStart: pageStart === Infinity ? 1 : pageStart,
+      pageEnd: pageEnd === 0 ? 1 : pageEnd,
+      blockIds: chunkBlockIds,
+    });
   }
 
-  const rawContent = blocks.map((b) => b.content).join("\n\n");
+  const rawContent = chunks.map((c) => c.content).join("\n\n");
 
-  return { blocks, rawContent };
+  return { chunks, blocks, rawContent };
 }

@@ -1,6 +1,6 @@
 import OpenAI from "openai";
 import { groupBy, mapValues } from "remeda";
-import type { Block, Heading, Section } from "../schemas/tree";
+import type { Chunk, Heading, Section } from "../schemas/tree";
 import type { ParsedDocument } from "../parsing/extend";
 
 const openai = new OpenAI();
@@ -11,16 +11,6 @@ const SECTION_PATTERNS = [
   /§\s*(\d+(?:\.\d+)*(?:\([a-z0-9]+\))*)/gi,
   /Article\s+(\d+)/gi,
 ];
-
-function getBlocksByPage(blocks: Block[]): Map<number, Block[]> {
-  const pageMap = new Map<number, Block[]>();
-  for (const block of blocks) {
-    const existing = pageMap.get(block.page) ?? [];
-    existing.push(block);
-    pageMap.set(block.page, existing);
-  }
-  return pageMap;
-}
 
 export async function extractTitleAndSummary(
   doc: ParsedDocument
@@ -56,13 +46,8 @@ Return JSON in this exact format:
   return JSON.parse(content) as { title: string; summary: string };
 }
 
-export async function extractHeadings(doc: ParsedDocument): Promise<Heading[]> {
-  const pageBlocks = getBlocksByPage(doc.blocks);
-  const pages = Array.from(pageBlocks.entries());
-
-  const pagePromises = pages.map(async ([pageNum, blocks]) => {
-    const pageContent = blocks.map((b) => b.content).join("\n");
-
+export async function extractHeadings(chunks: Chunk[]): Promise<Heading[]> {
+  const chunkPromises = chunks.map(async (chunk) => {
     const response = await openai.chat.completions.create({
       model: "gpt-4.1",
       messages: [
@@ -82,7 +67,7 @@ If no headings are found, return {"headings": []}`,
         },
         {
           role: "user",
-          content: `Extract headings from this page content:\n\n${pageContent}`,
+          content: `Extract headings from this content:\n\n${chunk.content}`,
         },
       ],
       response_format: { type: "json_object" },
@@ -96,37 +81,32 @@ If no headings are found, return {"headings": []}`,
       headings: Array<{ heading: string; level: number }>;
     };
 
-    return parsed.headings.map((h) => {
-      const matchingBlock = blocks.find(
-        (b) => b.type === "heading" || b.content.includes(h.heading)
-      );
-      return {
-        ...h,
-        blockId: matchingBlock?.id ?? blocks[0]?.id ?? `page-${pageNum}`,
-      };
-    });
+    return parsed.headings.map((h) => ({
+      ...h,
+      chunkId: chunk.id,
+    }));
   });
 
-  const allHeadings = (await Promise.all(pagePromises)).flat();
+  const allHeadings = (await Promise.all(chunkPromises)).flat();
 
   const grouped = groupBy(allHeadings, (h) => h.heading);
   const headingMap = mapValues(grouped, (group) => ({
     heading: group[0]!.heading,
     level: group[0]!.level,
-    blockIds: group.map((h) => h.blockId),
+    chunkIds: group.map((h) => h.chunkId),
   }));
 
   return Object.values(headingMap);
 }
 
-export async function extractSections(doc: ParsedDocument): Promise<Section[]> {
+export async function extractSections(chunks: Chunk[]): Promise<Section[]> {
   const sectionIdentifiers = new Set<string>();
 
-  for (const block of doc.blocks) {
+  for (const chunk of chunks) {
     for (const pattern of SECTION_PATTERNS) {
       pattern.lastIndex = 0;
       let match;
-      while ((match = pattern.exec(block.content)) !== null) {
+      while ((match = pattern.exec(chunk.content)) !== null) {
         const identifier = match[1];
         if (identifier) {
           sectionIdentifiers.add(identifier);
@@ -141,17 +121,17 @@ export async function extractSections(doc: ParsedDocument): Promise<Section[]> {
     const escapedId = identifier.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
     const searchPattern = new RegExp(`\\b${escapedId}\\b`, "i");
 
-    const matchingBlockIds: string[] = [];
-    for (const block of doc.blocks) {
-      if (searchPattern.test(block.content)) {
-        matchingBlockIds.push(block.id);
+    const matchingChunkIds: string[] = [];
+    for (const chunk of chunks) {
+      if (searchPattern.test(chunk.content)) {
+        matchingChunkIds.push(chunk.id);
       }
     }
 
-    if (matchingBlockIds.length > 0) {
+    if (matchingChunkIds.length > 0) {
       sections.push({
         section: identifier,
-        blockIds: matchingBlockIds,
+        chunkIds: matchingChunkIds,
       });
     }
   }
