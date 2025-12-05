@@ -1,0 +1,670 @@
+{
+  "title": "Smarsh Service Agreement - General Terms",
+  "summary": "This document outlines the general terms and conditions governing the use of Smarsh services by clients. It details the process of agreement acceptance, the structure of the service agreement, and the rights and responsibilities of both Smarsh and the client. Key sections cover the provision of services, support resources, trial services, client obligations regarding data and account management, and the use of third-party providers and marketplace applications. The agreement also specifies payment terms, fee structures, and the handling of overages. Overall, the document serves as a comprehensive legal framework for clients engaging with Smarsh's software and services.",
+  "headings": [
+    {
+      "heading": "Service Agreement - General Terms",
+      "level": 1,
+      "chunks": [
+        {
+          "content": "Service Agreement - General Terms",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "heading": "1. Services.",
+      "level": 1,
+      "chunks": [
+        {
+          "content": "1. Services.",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "heading": "2. Support.",
+      "level": 1,
+      "chunks": [
+        {
+          "content": "2. Support.",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "heading": "2.1. Support.",
+      "level": 2,
+      "chunks": [
+        {
+          "content": "2.1. Support.",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "heading": "2.2. Community.",
+      "level": 2,
+      "chunks": [
+        {
+          "content": "2.2. Community.",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "heading": "3. Trial Services",
+      "level": 1,
+      "chunks": [
+        {
+          "content": "3. Trial Services",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "heading": "4. Client Obligations",
+      "level": 1,
+      "chunks": [
+        {
+          "content": "4. Client Obligations",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "heading": "4.1. As used in this Agreement, the term \"Client Data\" means the message data that the Services receive",
+      "level": 2,
+      "chunks": [
+        {
+          "content": "4.1. As used in this Agreement, the term \"Client Data\" means the message data that the Services receive",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "heading": "4.2. It is Client's sole responsibility to monitor Client Data to be transmitted to the Service to ensure that Client Data is properly transmitted",
+      "level": 2,
+      "chunks": [
+        {
+          "content": "4.2. It is Client's sole responsibility to monitor Client Data to be transmitted to the Service to ensure that Client Data is properly transmitted",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "heading": "4.3. Client is solely responsible for Client Data and Client represents and warrants that Client Data will not",
+      "level": 2,
+      "chunks": [
+        {
+          "content": "4.3. Client is solely responsible for Client Data and Client represents and warrants that Client Data will not",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "heading": "4.4. Client is responsible for creating an account within the Service and ensuring that",
+      "level": 2,
+      "chunks": [
+        {
+          "content": "4.4. Client is responsible for creating an account within the Service and ensuring that",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "heading": "5. Third Party Providers",
+      "level": 1,
+      "chunks": [
+        {
+          "content": "5. Third Party Providers",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "heading": "6. Smarsh Marketplace",
+      "level": 1,
+      "chunks": [
+        {
+          "content": "6. Smarsh Marketplace",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "heading": "7. Fees & Payment",
+      "level": 1,
+      "chunks": [
+        {
+          "content": "7. Fees & Payment",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "heading": "8. Minimum Commitment & Invoice of Overages",
+      "level": 1,
+      "chunks": [
+        {
+          "content": "8. Minimum Commitment & Invoice of Overages",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "heading": "9. Taxes",
+      "level": 1,
+      "chunks": [
+        {
+          "content": "9. Taxes",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "heading": "10. Confidentiality",
+      "level": 1,
+      "chunks": [
+        {
+          "content": "10. Confidentiality",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "heading": "10.1. \"Confidential Information\"",
+      "level": 2,
+      "chunks": [
+        {
+          "content": "10.1. \"Confidential Information\"",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "heading": "10.2. Obligations with Respect to Confidential Information",
+      "level": 2,
+      "chunks": [
+        {
+          "content": "10.2. Obligations with Respect to Confidential Information",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "heading": "10.3. Remedies",
+      "level": 2,
+      "chunks": [
+        {
+          "content": "10.3. Remedies",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "heading": "11. Intellectual Property",
+      "level": 1,
+      "chunks": [
+        {
+          "content": "11. Intellectual Property",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "heading": "12. Term & Termination",
+      "level": 1,
+      "chunks": [
+        {
+          "content": "12. Term & Termination",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "heading": "12.1. Term",
+      "level": 2,
+      "chunks": [
+        {
+          "content": "12.1. Term",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "heading": "12.2. Termination for Breach",
+      "level": 2,
+      "chunks": [
+        {
+          "content": "12.2. Termination for Breach",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "heading": "12.3. Termination for Bankruptcy",
+      "level": 2,
+      "chunks": [
+        {
+          "content": "12.3. Termination for Bankruptcy",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "heading": "12.4. Effect of Termination",
+      "level": 2,
+      "chunks": [
+        {
+          "content": "12.4. Effect of Termination",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "heading": "13. Warranties; Disclaimer of Warranty.",
+      "level": 1,
+      "chunks": [
+        {
+          "content": "13. Warranties; Disclaimer of Warranty.",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "heading": "13.1. Performance Warranty.",
+      "level": 2,
+      "chunks": [
+        {
+          "content": "13.1. Performance Warranty.",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "heading": "13.2. Proper Authority.",
+      "level": 2,
+      "chunks": [
+        {
+          "content": "13.2. Proper Authority.",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "heading": "13.3. Compliance with Laws.",
+      "level": 2,
+      "chunks": [
+        {
+          "content": "13.3. Compliance with Laws.",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "heading": "13.4. Disclaimer of Warranty.",
+      "level": 2,
+      "chunks": [
+        {
+          "content": "13.4. Disclaimer of Warranty.",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "heading": "14. Indemnification.",
+      "level": 1,
+      "chunks": [
+        {
+          "content": "14. Indemnification.",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "heading": "14.1. Client Indemnification.",
+      "level": 2,
+      "chunks": [
+        {
+          "content": "14.1. Client Indemnification.",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "heading": "14.2. Smarsh Indemnification.",
+      "level": 2,
+      "chunks": [
+        {
+          "content": "14.2. Smarsh Indemnification.",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "heading": "15. Remedies and Limitation of Liability.",
+      "level": 1,
+      "chunks": [
+        {
+          "content": "15. Remedies and Limitation of Liability.",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "heading": "15.1. Remedies.",
+      "level": 2,
+      "chunks": [
+        {
+          "content": "15.1. Remedies.",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "heading": "15.2. Limitation of Liability.",
+      "level": 2,
+      "chunks": [
+        {
+          "content": "15.2. Limitation of Liability.",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "heading": "15.3. THE ABOVE LIMITATIONS OF LIABILITY REFLECT AN ALLOCATION OF RISK BETWEEN THE PARTIES IN VIEW OF THE FAVORABLE FEES CHARGED BY SMARSH RELATIVE TO THE SERVICES DESCRIBED HEREIN AND ARE MATERIAL TERMS HEREOF.",
+      "level": 2,
+      "chunks": [
+        {
+          "content": "15.3. THE ABOVE LIMITATIONS OF LIABILITY REFLECT AN ALLOCATION OF RISK BETWEEN THE PARTIES IN VIEW OF THE FAVORABLE FEES CHARGED BY SMARSH RELATIVE TO THE SERVICES DESCRIBED HEREIN AND ARE MATERIAL TERMS HEREOF.",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "heading": "16. General Terms.",
+      "level": 1,
+      "chunks": [
+        {
+          "content": "16. General Terms.",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "heading": "16.1. Export Restrictions.",
+      "level": 2,
+      "chunks": [
+        {
+          "content": "16.1. Export Restrictions.",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "heading": "16.2. Assignment",
+      "level": 1,
+      "chunks": [
+        {
+          "content": "16.2. Assignment",
+          "page": 8
+        }
+      ]
+    },
+    {
+      "heading": "16.3. Force Majeure",
+      "level": 1,
+      "chunks": [
+        {
+          "content": "16.3. Force Majeure",
+          "page": 8
+        }
+      ]
+    },
+    {
+      "heading": "16.4. Governing Law",
+      "level": 1,
+      "chunks": [
+        {
+          "content": "16.4. Governing Law",
+          "page": 8
+        }
+      ]
+    },
+    {
+      "heading": "16.5. Independence",
+      "level": 1,
+      "chunks": [
+        {
+          "content": "16.5. Independence",
+          "page": 8
+        }
+      ]
+    },
+    {
+      "heading": "16.6. Notices",
+      "level": 1,
+      "chunks": [
+        {
+          "content": "16.6. Notices",
+          "page": 8
+        }
+      ]
+    },
+    {
+      "heading": "16.7. Marketing Grant",
+      "level": 1,
+      "chunks": [
+        {
+          "content": "16.7. Marketing Grant",
+          "page": 8
+        }
+      ]
+    },
+    {
+      "heading": "16.8. Severability",
+      "level": 1,
+      "chunks": [
+        {
+          "content": "16.8. Severability",
+          "page": 8
+        }
+      ]
+    },
+    {
+      "heading": "16.9. Electronic Signatures",
+      "level": 1,
+      "chunks": [
+        {
+          "content": "16.9. Electronic Signatures",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "heading": "16.10. Modifications",
+      "level": 1,
+      "chunks": [
+        {
+          "content": "16.10. Modifications",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "heading": "17. WHERE CLIENT IS LOCATED IN EUROPE THE FOLLOWING MODIFICATIONS TO THE ABOVE TERMS APPLY",
+      "level": 1,
+      "chunks": [
+        {
+          "content": "17. WHERE CLIENT IS LOCATED IN EUROPE THE FOLLOWING MODIFICATIONS TO THE ABOVE TERMS APPLY",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "heading": "17.1. Section 15.2 and 15.3 of this Agreement are replaced with the following Sections 15.2, 15.3 and the addition of 15.4",
+      "level": 2,
+      "chunks": [
+        {
+          "content": "17.1. Section 15.2 and 15.3 of this Agreement are replaced with the following Sections 15.2, 15.3 and the addition of 15.4",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "heading": "17.1.1. \"15.2 Limitation of Consequential Damages",
+      "level": 3,
+      "chunks": [
+        {
+          "content": "17.1.1. \"15.2 Limitation of Consequential Damages",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "heading": "15.3 Limitation on Direct Damages",
+      "level": 3,
+      "chunks": [
+        {
+          "content": "15.3 Limitation on Direct Damages",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "heading": "8.4 Notwithstanding anything to the contrary in this Agreement",
+      "level": 3,
+      "chunks": [
+        {
+          "content": "8.4 Notwithstanding anything to the contrary in this Agreement",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "heading": "17.2. Section 16.4 is replaced with the following: \"16.4 Governing Law and Jurisdiction",
+      "level": 2,
+      "chunks": [
+        {
+          "content": "17.2. Section 16.4 is replaced with the following: \"16.4 Governing Law and Jurisdiction",
+          "page": 9
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "section": "Section 1",
+      "chunks": [
+        {
+          "content": "\t5 smarsh\"\n    \n\t\t\t\t\t  Service Agreement - General Terms\n\t\tBY CLICKING A BOX INDICATING ACCEPTANCE OF THIS AGREEMENT OR BY EXECUTING AN ORDER FORM THAT\n\t\tREFERENCES THIS AGREEMENT, YOU THE CLIENT (\"CLIENT\") AGREE TO THE TERMS OF THIS AGREEMENT. IF YOU\n\t    ACCEPT THIS AGREEMENT ON BEHALF OF A COMPANY OR OTHER LEGAL ENTITY, YOU REPRESENT THAT YOU\n\t    HAVE THE AUTHORITY TO BIND SUCH ENTITY TO THIS AGREEMENT.\n\t    IF CLIENT EXECUTED A SUBSCRIPTION FORM OR AN ORDER FORM (OR ENTERED INTO ANY OTHER ORDERING\n\t\tDOCUMENT IN ELECTRONIC OR HARD COPY FORM) FOR SOFTWARE OR SERVICES, CLIENT AGREES THAT BY\n\t    ACCEPTING THE TERMS OF THIS AGREEMENT (WHETHER BY CLICK THROUGH OR BY ORDER FORM REFERENCING\n\t    THIS AGREEMENT), THIS AGREEMENT AMENDS AND REPLACES ANY AND ALL PRIOR TERMS AND CONDITIONS\n\t    ASSOCIATED WITH SUCH ORDER FORM(S) (AND THIS AGREEMENTIS A WRITTEN AMENDMENT TO THE ORDER\n\t\tFORM) AND SUCH SUBSCRIPTION FORM OR ORDER FORM TERMS AND CONDITIONS ARE OF NO FORCE OR\n\t\tEFFECT; PROVIDED THAT THE \"EFFECTIVE DATE\" OF CLIENT'S AGREEMENT IS THE DATE ON WHICH CLIENT FIRST\n\t\tEXECUTED ANY ORDER FORM FOR SERVICES, AND THE TERM OF CLIENT'S AGREEMENT FOR ALL SERVICES WILL\n\t    SYNC TO AND CONTINUE TO RENEW ON THE ANNIVERSARY OF THE EFFECTIVE DATE ACCORDING TO THE\n\t\tRENEWAL TERMS OF THIS AGREEMENT.\n\t    This Smarsh Service Agreement (the \"Agreement\") constitutes a binding agreement between Smarsh Inc.\n\t\t(\"Smarsh\") and the Client identified in an order document (an order document includes electronic ordering\n\t\tmechanisms made available to Client) that references this Agreement (\"Order Form\"), or the Client who accepts\n\t    the terms of this Agreement via click-through acceptance. Client agrees that the terms of this Agreement will\n\t    govern Client's use of the Services (as defined in Section 1).\n\t    The Service Agreement includes four parts: (1) the legal terms that are included in this \"Smarsh Services\n\t    Agreement - General Terms\", (2) the terms that are specific to each service type are included in the \"Service\n\t    Specific Terms\", (3) the description of what is included with each service in \"Service Descriptions\"; and (4) the\n\t    Acceptable Use Policy.\n\t\t1. Services. Smarsh will provide the Services specified in each Order Form (\"Services\"), according to the\n\t\t  Agreement and the Service Specific Terms that apply to a specific Service and the Service Descriptions, which\n\t\t  describe the features and functionality of each Service. The Service Descriptions and Service Specific Terms\n\t\t  are located at www.smarsh.com/legal. Smarsh grants Client the revocable, non-exclusive, non-transferable,\n\t\t  limited right to access and use the Service purchased by Client during the Term (as defined in Section 12).\n\t    2. Support.\n\t\t  2.1. Support. Client may find support FAQ's and other support resources, or initiate support requests by\n\t\t\tsubmitting support tickets here: https://central.smarsh.com/s/. Changes in Smarsh's support\n\t\t\tpolicies will be made available at https://central.smarsh.com/s/. The Service Level Agreement\n\t\t\tapplicable to the Services purchased by Client is included in the Service Specific Terms and are\n\t\t\tavailable at www.smarsh.com/legal.\n\t\t  2.2. Community. Smarsh makes an online forum available to authorized users of the Smarsh services for\n\t\t\tdiscussion about Smarsh products and services and general Q&A purposes (\"Community\"). Smarsh\n\t\t\thereby grants to Client a revocable, non-exclusive, non-transferable right to access and use the\n\t\t  *6* 1-866-762-7741 www.smarsh.com y @SmarshInc f SmarshInc in Company/smarsh\n\t\t \n",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "section": "Section 12",
+      "chunks": [
+        {
+          "content": "\t5 smarsh\"\n    \n\t\t\t\t\t  Service Agreement - General Terms\n\t\tBY CLICKING A BOX INDICATING ACCEPTANCE OF THIS AGREEMENT OR BY EXECUTING AN ORDER FORM THAT\n\t\tREFERENCES THIS AGREEMENT, YOU THE CLIENT (\"CLIENT\") AGREE TO THE TERMS OF THIS AGREEMENT. IF YOU\n\t    ACCEPT THIS AGREEMENT ON BEHALF OF A COMPANY OR OTHER LEGAL ENTITY, YOU REPRESENT THAT YOU\n\t    HAVE THE AUTHORITY TO BIND SUCH ENTITY TO THIS AGREEMENT.\n\t    IF CLIENT EXECUTED A SUBSCRIPTION FORM OR AN ORDER FORM (OR ENTERED INTO ANY OTHER ORDERING\n\t\tDOCUMENT IN ELECTRONIC OR HARD COPY FORM) FOR SOFTWARE OR SERVICES, CLIENT AGREES THAT BY\n\t    ACCEPTING THE TERMS OF THIS AGREEMENT (WHETHER BY CLICK THROUGH OR BY ORDER FORM REFERENCING\n\t    THIS AGREEMENT), THIS AGREEMENT AMENDS AND REPLACES ANY AND ALL PRIOR TERMS AND CONDITIONS\n\t    ASSOCIATED WITH SUCH ORDER FORM(S) (AND THIS AGREEMENTIS A WRITTEN AMENDMENT TO THE ORDER\n\t\tFORM) AND SUCH SUBSCRIPTION FORM OR ORDER FORM TERMS AND CONDITIONS ARE OF NO FORCE OR\n\t\tEFFECT; PROVIDED THAT THE \"EFFECTIVE DATE\" OF CLIENT'S AGREEMENT IS THE DATE ON WHICH CLIENT FIRST\n\t\tEXECUTED ANY ORDER FORM FOR SERVICES, AND THE TERM OF CLIENT'S AGREEMENT FOR ALL SERVICES WILL\n\t    SYNC TO AND CONTINUE TO RENEW ON THE ANNIVERSARY OF THE EFFECTIVE DATE ACCORDING TO THE\n\t\tRENEWAL TERMS OF THIS AGREEMENT.\n\t    This Smarsh Service Agreement (the \"Agreement\") constitutes a binding agreement between Smarsh Inc.\n\t\t(\"Smarsh\") and the Client identified in an order document (an order document includes electronic ordering\n\t\tmechanisms made available to Client) that references this Agreement (\"Order Form\"), or the Client who accepts\n\t    the terms of this Agreement via click-through acceptance. Client agrees that the terms of this Agreement will\n\t    govern Client's use of the Services (as defined in Section 1).\n\t    The Service Agreement includes four parts: (1) the legal terms that are included in this \"Smarsh Services\n\t    Agreement - General Terms\", (2) the terms that are specific to each service type are included in the \"Service\n\t    Specific Terms\", (3) the description of what is included with each service in \"Service Descriptions\"; and (4) the\n\t    Acceptable Use Policy.\n\t\t1. Services. Smarsh will provide the Services specified in each Order Form (\"Services\"), according to the\n\t\t  Agreement and the Service Specific Terms that apply to a specific Service and the Service Descriptions, which\n\t\t  describe the features and functionality of each Service. The Service Descriptions and Service Specific Terms\n\t\t  are located at www.smarsh.com/legal. Smarsh grants Client the revocable, non-exclusive, non-transferable,\n\t\t  limited right to access and use the Service purchased by Client during the Term (as defined in Section 12).\n\t    2. Support.\n\t\t  2.1. Support. Client may find support FAQ's and other support resources, or initiate support requests by\n\t\t\tsubmitting support tickets here: https://central.smarsh.com/s/. Changes in Smarsh's support\n\t\t\tpolicies will be made available at https://central.smarsh.com/s/. The Service Level Agreement\n\t\t\tapplicable to the Services purchased by Client is included in the Service Specific Terms and are\n\t\t\tavailable at www.smarsh.com/legal.\n\t\t  2.2. Community. Smarsh makes an online forum available to authorized users of the Smarsh services for\n\t\t\tdiscussion about Smarsh products and services and general Q&A purposes (\"Community\"). Smarsh\n\t\t\thereby grants to Client a revocable, non-exclusive, non-transferable right to access and use the\n\t\t  *6* 1-866-762-7741 www.smarsh.com y @SmarshInc f SmarshInc in Company/smarsh\n\t\t \n",
+          "page": 1
+        },
+        {
+          "content": "\t\t\tdeemed a waiver of any subsequent default of the terms and conditions thereof.\n\t\t  16.9. Electronic Signatures. The parties agree that electronic signatures, whether digital or encrypted, or click-\n\t\t\tthrough acceptance, by an Authorized User or a party's authorized signatory are intended to\n\t\t\tauthenticate such signatures and give rise to a valid, enforceable, and fully effective agreement. The\n\t\t\tparties expressly agree that any terms in Client's purchase order forms, or electronic communications\n\t\t\tform no part of this Agreement.\n\t\t 16.10. Modifications. Smarsh may make modifications to this Agreement by posting a revised version\n\t\t\tto www.smarsh.com/legal or via weblink at the Service login page. Client unequivocally indicates\n\t\t\tacceptance of any such modifications by (a) accepting the version of the Agreement with the modified\n\t\t\tterms at the product log in page; (b) executing an Order Form including the modified terms; or (c)\n\t\t\tcontinued use of the Services for 30 days following the earliest notice provided to an Authorized User\n\t\t\tof the modification.\n\t 17. WHERE CLIENT IS LOCATED IN EUROPE THE FOLLOWING MODIFICATIONS TO THE ABOVE TERMS APPLY:\n\t    17.1. Section 15.2 and 15.3 of this Agreement are replaced with the following Sections 15.2, 15.3 and the addition of 15.4:\n\t\t  17.1.1. \"15.2 Limitation of Consequential Damages. Subject to 15.4, in no event shall either party be liable under or\n\t\t\t in relation to this Agreement or its subject matter (whether such liability arises due to negligence, breach of\n\t\t\t contract, misrepresentation or for any other reason) for any: (a) loss of profits; (b) loss of sales; (c) loss of\n\t\t\t turnover; (d) loss of, or loss of use of, any (i) software or (ii) data; (e) loss of use of any computer or other\n\t\t\t equipment or plant; (f) wasted management or other staff time; (g) losses or liabilities under or in relation to\n\t\t\t any other contract; or (h) indirect, special or consequential loss or damage. 15.3 Limitation on Direct\n\t\t\t Damages. Subject to Sections 15.2 and 15.4, Smarsh's aggregate liability arising from or in connection with\n\t\t\t this Agreement (and whether the liability arises because of breach of contract, negligence,\n\t\t\t misrepresentation or for any other reason) shall not exceed 1.25 times the amounts paid or payable (having\n\t\t\t been invoiced but not yet paid) by you for the license to use the Service. 8.4 Notwithstanding anything to\n\t\t\t the contrary in this Agreement, neither party excludes or limits its liability in respect of death or personal\n\t\t\t injury caused by the negligence of that party, its servants or agents, breach of any condition as to title or\n\t\t\t quiet enjoyment implied by Section 12 Sale of Goods Act 1979 or Section 2 Supply of Goods and Services Act\n\t\t\t 1982, or liability for fraudulent misrepresentation or such other liability which cannot under applicable law\n\t\t\t be excluded or limited by Agreement.\"\n\t    17.2. Section 16.4 is replaced with the following: \"16.4 Governing Law and Jurisdiction. This Agreement and all matters\n\t\t  arising out of or relating to this Agreement shall be governed by the laws of England and Wales and the parties agree\n\t\t  to submit to the exclusive jurisdiction of the English courts. The parties agree that the United Nations Convention on\n\t\t  Contracts for the International Sale of Goods is specifically excluded from application to this Agreement.\n\t\t  Notwithstanding anything in this Agreement to the contrary, nothing in this Agreement prevents either party from\n\t\t  seeking injunctive relief in the appropriate or applicable forum.\"\n\t\t  *6* 1-866-762-7741 www.smarsh.com y @SmarshInc f SmarshInc in Company/smarsh\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t    \n\t\t\t\t    \n\t\t\t\t\t\t\t\t\t\t\t    \n",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "section": "Section 4.7",
+      "chunks": [
+        {
+          "content": "\t\t\tCommunity in connection with Client's use of the Services. Client or Users (as defined in Section 4.7),\n\t\t\tmay post comments or content in the Community (\"Community Content\") and Client hereby grants to\n\t\t\tSmarsh a worldwide, perpetual, non-exclusive, royalty-free, irrevocable and transferable license to\n\t\t\taccess, use without restriction, reproduce, make derivatives of, or incorporate any comments or\n\t\t\tsuggestions or feedback into Smarsh products or services without remuneration to Client or any User.\n\t\t\tClient acknowledges that Community Content is viewable by other Community users and is not\n\t\t\tconfidential. Smarsh may delete Community Content without notice to any User, however Smarsh is\n\t\t\tunder no obligation to monitor Community Content. Client is responsible for all Community Content. All\n\t\t\tCommunity Content (including any links to third-party sites or applications) provided by Client Users\n\t\t\tmust comply with the Acceptable Use Policy available at www.smarsh.com/legal/AUP. Smarsh disclaims\n\t\t\tall liability arising from the Community Content and use of the Community, including exposure to\n\t\t\tcontent that is potentially offensive, indecent, inaccurate, objectionable, or otherwise inappropriate.\n\t\t\tThe Community may be suspended or discontinued at any time. The Community is made available\n\t\t\twithout charge and is not part of the Service.\n\t\t3. Trial Services. If a trial period is indicated on the Order Form, Smarsh will provide Client with a temporary\n\t\t  account to one or more Services (\"Trial Account\"). The Trial Account will be accessible beginning on the\n\t\t  Activation Date (as defined in Section 7) and for the trial period set forth in the Order Form, or if no trial\n\t\t  period is stated, the Trial Account period will be thirty (30) days from the Activation Date. During the trial\n\t\t  period, the Trial Account and associated Services are provided \"AS IS\" and without representation or\n\t\t  warranty of any kind. Smarsh is under no obligation to store or retain Client Data during the trial period.\n\t\t4. Client Obligations.\n\t\t  4.1. As used in this Agreement, the term \"Client Data\" means the message data that the Services receive\n\t\t\tfrom Client systems, or Client's third-party communication providers or third-party content providers,\n\t\t\tor the message data generated by Smarsh provided messaging Services. Client hereby grants Smarsh\n\t\t\tthe limited, non-exclusive right to access, copy, transmit, download, display, and reproduce Client Data\n\t\t\tas necessary to provide, support, and improve the Services, as directed by Client, or as otherwise\n\t\t\tauthorized hereunder. Data generated by the Services regarding Client's use of the Services is usage\n\t\t\tdata and is not Client Data.\n\t\t  4.2. It is Client's sole responsibility to monitor Client Data to be transmitted to the Service to ensure that\n\t\t\tClient Data is properly transmitted. Client will notify Smarsh of any delivery failures or outages of its\n\t\t\tsystems which may affect the transmission of Client Data. It is Client's responsibility to encrypt data\n\t\t\tsent to Smarsh and Smarsh is not responsible or liable for any data that Client transmits to Smarsh in an\n\t\t\tunencrypted format. Smarsh is not responsible or liable for any update, upgrade, patch, maintenance or\n\t\t\tother change that affects the transmission of Client Data to the Service. It is Client's responsibility to\n\t\t\tensure that the Services are configured to capture Client Data from all User accounts which are to be\n\t\t\tarchived.\n\t\t  4.3. Client is solely responsible for Client Data and Client represents and warrants that Client Data will not\n\t\t\t(a) infringe any third party right, including, without limitation, third party rights in patent, trademark,\n\t\t\tcopyright, or trade secret; or (b) constitute a breach of any other right of a third party, including without\n\t\t\tlimitation, any right that may exist under contract or tort theories.\n\t\t  4.4. Client is responsible for creating an account within the Service and ensuring that (a) Client's account\n\t\t\tregistration information is complete and accurate; and (b) Client's account credentials are confidential.\n\t\t\tClient will notify Smarsh immediately of any unauthorized use of Client's account or account credentials,\n\t\t\tor any other known or suspected breach of the security of Client's account. Client is responsible for the\n\t\t\tactivity that occurs within Client's account and for the actions or omissions of any of Client's employees,\n\t\t  *6* 1-866-762-7741 www.smarsh.com y @SmarshInc f SmarshInc in Company/smarsh\n\t\t \n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t    \n\t\t\t\t    \n\t\t\t\t\t\t\t\t\t\t\t\t\n",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "section": "Section 7",
+      "chunks": [
+        {
+          "content": "\t\t\tCommunity in connection with Client's use of the Services. Client or Users (as defined in Section 4.7),\n\t\t\tmay post comments or content in the Community (\"Community Content\") and Client hereby grants to\n\t\t\tSmarsh a worldwide, perpetual, non-exclusive, royalty-free, irrevocable and transferable license to\n\t\t\taccess, use without restriction, reproduce, make derivatives of, or incorporate any comments or\n\t\t\tsuggestions or feedback into Smarsh products or services without remuneration to Client or any User.\n\t\t\tClient acknowledges that Community Content is viewable by other Community users and is not\n\t\t\tconfidential. Smarsh may delete Community Content without notice to any User, however Smarsh is\n\t\t\tunder no obligation to monitor Community Content. Client is responsible for all Community Content. All\n\t\t\tCommunity Content (including any links to third-party sites or applications) provided by Client Users\n\t\t\tmust comply with the Acceptable Use Policy available at www.smarsh.com/legal/AUP. Smarsh disclaims\n\t\t\tall liability arising from the Community Content and use of the Community, including exposure to\n\t\t\tcontent that is potentially offensive, indecent, inaccurate, objectionable, or otherwise inappropriate.\n\t\t\tThe Community may be suspended or discontinued at any time. The Community is made available\n\t\t\twithout charge and is not part of the Service.\n\t\t3. Trial Services. If a trial period is indicated on the Order Form, Smarsh will provide Client with a temporary\n\t\t  account to one or more Services (\"Trial Account\"). The Trial Account will be accessible beginning on the\n\t\t  Activation Date (as defined in Section 7) and for the trial period set forth in the Order Form, or if no trial\n\t\t  period is stated, the Trial Account period will be thirty (30) days from the Activation Date. During the trial\n\t\t  period, the Trial Account and associated Services are provided \"AS IS\" and without representation or\n\t\t  warranty of any kind. Smarsh is under no obligation to store or retain Client Data during the trial period.\n\t\t4. Client Obligations.\n\t\t  4.1. As used in this Agreement, the term \"Client Data\" means the message data that the Services receive\n\t\t\tfrom Client systems, or Client's third-party communication providers or third-party content providers,\n\t\t\tor the message data generated by Smarsh provided messaging Services. Client hereby grants Smarsh\n\t\t\tthe limited, non-exclusive right to access, copy, transmit, download, display, and reproduce Client Data\n\t\t\tas necessary to provide, support, and improve the Services, as directed by Client, or as otherwise\n\t\t\tauthorized hereunder. Data generated by the Services regarding Client's use of the Services is usage\n\t\t\tdata and is not Client Data.\n\t\t  4.2. It is Client's sole responsibility to monitor Client Data to be transmitted to the Service to ensure that\n\t\t\tClient Data is properly transmitted. Client will notify Smarsh of any delivery failures or outages of its\n\t\t\tsystems which may affect the transmission of Client Data. It is Client's responsibility to encrypt data\n\t\t\tsent to Smarsh and Smarsh is not responsible or liable for any data that Client transmits to Smarsh in an\n\t\t\tunencrypted format. Smarsh is not responsible or liable for any update, upgrade, patch, maintenance or\n\t\t\tother change that affects the transmission of Client Data to the Service. It is Client's responsibility to\n\t\t\tensure that the Services are configured to capture Client Data from all User accounts which are to be\n\t\t\tarchived.\n\t\t  4.3. Client is solely responsible for Client Data and Client represents and warrants that Client Data will not\n\t\t\t(a) infringe any third party right, including, without limitation, third party rights in patent, trademark,\n\t\t\tcopyright, or trade secret; or (b) constitute a breach of any other right of a third party, including without\n\t\t\tlimitation, any right that may exist under contract or tort theories.\n\t\t  4.4. Client is responsible for creating an account within the Service and ensuring that (a) Client's account\n\t\t\tregistration information is complete and accurate; and (b) Client's account credentials are confidential.\n\t\t\tClient will notify Smarsh immediately of any unauthorized use of Client's account or account credentials,\n\t\t\tor any other known or suspected breach of the security of Client's account. Client is responsible for the\n\t\t\tactivity that occurs within Client's account and for the actions or omissions of any of Client's employees,\n\t\t  *6* 1-866-762-7741 www.smarsh.com y @SmarshInc f SmarshInc in Company/smarsh\n\t\t \n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t    \n\t\t\t\t    \n\t\t\t\t\t\t\t\t\t\t\t\t\n",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "section": "Section 10",
+      "chunks": [
+        {
+          "content": "\t\t\tmeasures to maintain the confidentiality of Confidential Information of the other party in its possession\n\t\t\tor control. Either party may disclose Confidential Information of the other party: (i) pursuant to the\n\t\t\torder or requirement of a court, administrative or regulatory agency, or other governmental body,\n\t\t\tprovided that the receiving party, if feasible and/or legally permitted to do so, gives reasonable notice\n\t\t\tto the disclosing party to allow the disclosing party to contest such order or requirement; or (ii) to the\n\t\t\tparties agents, representatives, subcontractors or service providers who have a need to know such\n\t\t\tinformation provided that such party maintain the Confidential Information on a confidential basis.\n\t\t  10.3. Remedies. Each party acknowledges and agrees that a breach of the obligations of this Section 10 by the\n\t\t\tother party may result in irreparable injury to the disclosing party for which there may be no adequate\n\t\t\tremedy at law, and the disclosing party will be entitled to seek equitable relief, including injunction and\n\t\t\tspecific performance, in the event of any breach or threatened breach or intended breach by the\n\t\t\trecipient of Confidential Information.\n\t\t11. Intellectual Property. As between Smarsh and Client, all right, title and interest in and to Smarsh information\n\t\t  technology infrastructure including the software, hardware, databases, electronic systems, networks, and all\n\t\t  applications, APIs or Client-Side Software (as defined in the Service Specific Terms), required to deliver the\n\t\t  Services or made available or accessible by Smarsh, and all documentation regarding the use or operation of\n\t\t  the Service (collectively \"Intellectual Property\") are the sole and exclusive property of Smarsh. Except as\n\t\t  expressly stated herein, nothing in this Agreement will serve to transfer to Client any right in or to the\n\t\t  Intellectual Property. Smarsh retains all right, title and interest in and to Intellectual Property. As between\n\t\t  Smarsh and Client, Client Data is the sole and exclusive property of Client and other than the limited license\n\t\t  to Client Data granted hereunder, nothing in this Agreement will serve to transfer to Smarsh any intellectual\n\t\t  property rights in Client Data.\n\t\t12. Term & Termination.\n\t\t  12.1. Term. The Agreement will commence on the Effective Date and will remain in effect for the period\n\t\t\tspecified in the Order Form or, if no period is specified, 12 months (\"Initial Term\"). The Initial Term will\n\t\t\trenew automatically for additional, successive 12-month terms (each a \"Renewal Term\"), unless Smarsh\n\t\t\tor Client provides the other party with written termination notice at least 90 days prior to the end of the\n\t\t\tInitial Term or the applicable Renewal Term. The Initial Term plus any Renewal Term are, collectively, the\n\t\t\t\"Term.\" Any Order Form entered into after the Effective Date will sync to and co-terminate with Client's\n\t\t\tthen-current Service Term.\n\t\t  12.2. Termination for Breach. Either party may terminate this Agreement if the other party materially\n\t\t\tbreaches its obligations under this Agreement and such breach remains uncured for a period of 30\n\t\t\tdays following the non- breaching party's written notice thereof. Smarsh may suspend Client's\n\t\t\taccess to the Services in the event of any breach of this Agreement and will not be liable for any\n\t\t\tdamages resulting from such suspension.\n\t\t  12.3. Termination for Bankruptcy. This Agreement will terminate immediately, upon written notice, where\n\t\t\t(a) either party is declared insolvent or adjudged bankrupt by a court of competent jurisdiction; or (b) a\n\t\t\tpetition for bankruptcy or reorganization or an arrangement with creditors is filed by or against that\n\t\t\tparty and is not dismissed within 60 days.\n\t\t  12.4. Effect of Termination. Upon any termination or expiration of the Agreement: (a) all rights and licenses\n\t\t\tto the Services granted to Client by Smarsh will immediately terminate; (b) Client will pay any Fees due\n\t\t\tand payable up to the date of termination, except in the case of Smarsh's termination for Client's\n\t\t\tbreach, and in such case, Client will pay the Fees owing for the remainder of the then-current Term;\n\t\t\tand (c) upon request, each party will return to the other or delete the Confidential Information of the\n\t\t\tother party; provided, however, if Client requests Smarsh to return Client Data, Client agrees to pay\n\t\t\tSmarsh's then-current data extraction and exportation fees plus any hardware costs.\n\t\t  *6* 1-866-762-7741 www.smarsh.com y @SmarshInc f SmarshInc in Company/smarsh\n\t\t \n",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "section": "Section 4",
+      "chunks": [
+        {
+          "content": "\t\t13. Warranties; Disclaimer of Warranty.\n\t\t  13.1. Performance Warranty. Smarsh represents and warrants that it will provide the Services in\n\t\t\taccordance with generally accepted industry standards.\n\t\t  13.2. Proper Authority. Smarsh represents that it has the right and authority to enter into this Agreement and\n\t\t\tthat the performance of its obligations under this Agreement will not breach or be in conflict with any\n\t\t\tother agreement to which Smarsh is a party.\n\t\t  13.3. Compliance with Laws. Smarsh warrants that it will comply with the laws and regulations applicable\n\t\t\tto Smarsh's business.\n\t\t  13.4. Disclaimer of Warranty. EXCEPT AS SET FORTH ABOVE, SMARSH MAKES NO REPRESENTATION OR\n\t\t\tWARRANTY OF ANY KIND IN CONNECTION WITH THE SERVICES, PROFESSIONAL SERVICES OR SOFTWARE,\n\t\t\tINCLUDING, WITHOUT LIMITATION, ANY INFORMATION OR MATERIALS PROVIDED OR MADE AVAILABLE\n\t\t\tBY SMARSH. SMARSH HEREBY DISCLAIMS ANY AND ALL REPRESENTATIONS AND WARRANTIES,\n\t\t\tWHETHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, ALL IMPLIED WARRANTIES OF\n\t\t\tMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. SMARSH DOES\n\t\t\tNOT REPRESENT OR WARRANT THAT THE SERVICES OR SOFTWARE WILL BE AVAILABLE OR ERROR-FREE.\n\t\t\tSMARSH WILL NOT BE LIABLE FOR DELAYS, INTERRUPTIONS, SERVICE FAILURES OR OTHER PROBLEMS\n\t\t\tINHERENT IN THE USE OF THE INTERNET, ELECTRONIC COMMUNICATIONS, OR OTHER SYSTEMS OUTSIDE\n\t\t\tTHE REASONABLE CONTROL OF SMARSH. SMARSH MAKES NO REPRESENTATION OR WARRANTY THAT\n\t\t\tUSE OF THE SERVICES OR THE ADVICE, CONSULTING OR PROFESSIONAL SERVICE PROVIDED TO CLIENT\n\t\t\tGUARANTEES LEGAL COMPLIANCE UNDER ANY FEDERAL, STATE OR INTERNATIONAL STATUTE, LAW,\n\t\t\tRULE, REGULATION, OR DIRECTIVE, AND SMARSH EXPRESSLY DISCLAIMS ALL LIABILITY ARISING OR\n\t\t\tRELATED TO CLIENT'S COMPLIANCE WITH ANY FEDERAL, STATE OR INTERNATIONAL STATUTE, LAW,\n\t\t\tRULE, REGULATION, OR DIRECTIVE. THE SOFTWARE IS NOT DESIGNED OR INTENDED FOR USE IN\n\t\t\tHAZARDOUS ENVIRONMENTS REQUIRING FAIL- SAFE PERFORMANCE, INCLUDING BUT NOT LIMITED TO\n\t\t\tANY APPLICATION IN WHICH THE FAILURE OF THE SOFTWARE COULD LEAD DIRECTLY TO DEATH,\n\t\t\tPERSONAL INJURY, OR SEVERE PHYSICAL OR PROPERTY DAMAGE.\n\t\t14. Indemnification.\n\t\t  14.1. Client Indemnification. Client will defend, indemnify and hold harmless Smarsh, its officers, directors,\n\t\t\temployees and agents, from and against all claims, losses, damages, liabilities and expenses (including\n\t\t\treasonable attorneys' fees), arising from or related to Client Data, Client's breach of any of Client's\n\t\t\tobligations under the AUP, Service Specific Terms or Section 4 (Client Obligations). Client's obligation for\n\t\t\tindemnification will be predicated upon (a) Smarsh providing Client with prompt written notice upon\n\t\t\tbecoming aware of any such claim; provided that, Client will not be relieved of its obligation for\n\t\t\tindemnification as the result of Smarsh's failure to provide such notice, unless Client is actually\n\t\t\tprejudiced in defending such a claim as a result of Smarsh's failure to provide notice; (b) if requested by\n\t\t\tClient, and at Client's expense, Smarsh reasonably cooperating with the defense of such claim; and (c)\n\t\t\tSmarsh allowing Client sole and exclusive control over the defense and settlement of any such claim.\n\t\t  14.2. Smarsh Indemnification. Smarsh will defend, indemnify and hold Client harmless from third-party claims\n\t\t\tarising out of a claim that the Services infringe any United States patent, trademark or copyright;\n\t\t\tprovided that, (a) Client provides Smarsh with prompt written notice upon becoming aware of any such\n\t\t\tclaim; (b) Client reasonably cooperates with Smarsh in the defense of such claim; and (c) Smarsh has sole\n\t\t\tand exclusive control over the defense and settlement of any such claim. Notwithstanding the foregoing,\n\t\t\tSmarsh will have no liability of any kind to the extent any claim relates to or arises from: (i) custom\n\t\t  *6* 1-866-762-7741 www.smarsh.com y @SmarshInc f SmarshInc in Company/smarsh\n\t\t \n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t    \n\t\t\t\t    \n\t\t\t\t\t\t\t\t\t\t\t\t\n",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "section": "Section 9",
+      "chunks": [
+        {
+          "content": "\t\t\tfunctionality provided to Client based on Client's specific requirements; (ii) any modification of the\n\t\t\tServices by Client or any third party; (iii) the combination of Services with any technology or other\n\t\t\tservices, software or technology not provided by Smarsh; or (iv) the failure of Client to use updated or\n\t\t\tmodified versions of the Services made available by Smarsh. If the Services are subject to a claim of\n\t\t\tinfringement of the intellectual property rights of a third party, Smarsh may, in its sole discretion, either\n\t\t\t(a) procure for Client the right to continue to use the Services; (b) modify the Services such that they are\n\t\t\tnon-infringing; or (c) if in the reasonable opinion of Smarsh, neither (a) nor (b) are commercially feasible,\n\t\t\tthen Smarsh may upon thirty (30) days prior written notice to Client, terminate the applicable Service.\n\t\t\tThe indemnification obligation contained in this Section 9 will be Client's sole remedy, and Smarsh's sole\n\t\t\tobligation, with respect to claims of infringement.\n\t\t15. Remedies and Limitation of Liability.\n\t\t  15.1. Remedies. In the event of a breach of any warranty under Section 13 Smarsh will use commercially\n\t\t\treasonable efforts to provide Client with an error correction or work-around that corrects the reported\n\t\t\tnon-conformity. In the event of a breach of the applicable Service Level Agreement (included in the\n\t\t\tService Specific Terms as applicable) Smarsh will provide Client with the credit stated in the Service Level\n\t\t\tAgreement. The foregoing remedies represent Client's sole and exclusive remedy for a breach of Section\n\t\t\t13 or the applicable Service Level Agreement.\n\t\t  15.2. Limitation of Liability. IN NO EVENT WILL EITHER PARTY BE LIABLE TO THE OTHER, OR TO ANY THIRD\n\t\t\tPARTY, FOR ANY SPECIAL, INDIRECT, INCIDENTAL, PUNITIVE, EXEMPLARY OR CONSEQUENTIAL DAMAGES\n\t\t\t(INCLUDING LOSS OF USE, DATA, BUSINESS OR PROFITS), ARISING OUT OF OR IN CONNECTION WITH\n\t\t\tTHE SERVICES OR SOFTWARE, WHETHER BASED ON BREACH OF CONTRACT, BREACH OF WARRANTY,\n\t\t\tTORT (INCLUDING NEGLIGENCE), OR OTHERWISE, REGARDLESS OF WHETHER SUCH DAMAGES WERE\n\t\t\tFORESEEABLE OR WHETHER THE PARTY HAD BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.\n\t\t\tSMARSH'S AGGREGATE LIABILITY HEREUNDER FOR ALL DAMAGES ARISING UNDER OR RELATING TO THIS\n\t\t\tAGREEMENT, NOTWITHSTANDING THE FORM IN WHICH ANY ACTION IS BROUGHT (E.G., CONTRACT,\n\t\t\tTORT, OR OTHERWISE), WILL BE LIMITED TO THE TOTAL FEES ACTUALLY RECEIVED BY SMARSH FROM\n\t\t\tCLIENT FOR THE APPLICABLE SERVICES IN THE TWELVE (12) MONTH PERIOD PRECEDING THE MONTH IN\n\t\t\tWHICH THE INCIDENT CAUSING THE DAMAGES AROSE. THE LIMITATION ON LIABILITY SET FORTH ABOVE\n\t\t\tIS CUMULATIVE; ALL PAYMENTS MADE FOR ALL CLAIMS AND DAMAGES WILL BE AGGREGATED TO\n\t\t\tDETERMINE IF THE LIMIT HAS BEEN REACHED.\n\t\t  15.3. THE ABOVE LIMITATIONS OF LIABILITY REFLECT AN ALLOCATION OF RISK BETWEEN THE PARTIES IN\n\t\t\tVIEW OF THE FAVORABLE FEES CHARGED BY SMARSH RELATIVE TO THE SERVICES DESCRIBED HEREIN\n\t\t\tAND ARE MATERIAL TERMS HEREOF.\n\t\t16. General Terms.\n\t\t  16.1. Export Restrictions. The Services and Software (as defined in the Service Specific Terms) including any\n\t\t\tsoftware, documentation and any related technical data included with, or contained in the Services of\n\t\t\tSoftware, may be subject to United States export control laws and regulations. Smarsh Public IM policy\n\t\t\tmanager is classified under Export Control Classification Number (ECCN) 5D002.c.1, and has been\n\t\t\tqualified for export under authority of license exception ENC, in accordance with sections 740.17(d) and\n\t\t\t740.17(b)(3) of the U.S. Export Administration Regulations (EAR), 15 C.F.R. Part 730 et seq. (the \"EAR\"). It\n\t\t\tmay not be downloaded or otherwise exported or re-exported into (or to a national or resident of)\n\t\t\tCrimea- Region of Ukraine, Cuba, Iran, North Korea, Sudan, Syria or any other country to which the\n\t\t\tUnited States has embargoed goods; or any organization or company on the United States Commerce\n\t\t\tDepartment's \"Denied Parties List.\" Client will comply with the export laws and regulations of the United\n\t\t\tStates and other applicable jurisdictions in providing or using the Services. Client will not transfer the\n\t\t\tSoftware, or any other software or documentation provided by Smarsh (a) to any person on a\n\t\t  *6* 1-866-762-7741 www.smarsh.com y @SmarshInc f SmarshInc in Company/smarsh\n\t\t\t\t\t\t\t\t\t\t\n\t\t \n\t\t\t\t\t\t\t    \n\t\t\t\t    \n\t\t\t\t\t\t\t\t\t\t\t\t\n",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "section": "Section 13",
+      "chunks": [
+        {
+          "content": "\t\t\tfunctionality provided to Client based on Client's specific requirements; (ii) any modification of the\n\t\t\tServices by Client or any third party; (iii) the combination of Services with any technology or other\n\t\t\tservices, software or technology not provided by Smarsh; or (iv) the failure of Client to use updated or\n\t\t\tmodified versions of the Services made available by Smarsh. If the Services are subject to a claim of\n\t\t\tinfringement of the intellectual property rights of a third party, Smarsh may, in its sole discretion, either\n\t\t\t(a) procure for Client the right to continue to use the Services; (b) modify the Services such that they are\n\t\t\tnon-infringing; or (c) if in the reasonable opinion of Smarsh, neither (a) nor (b) are commercially feasible,\n\t\t\tthen Smarsh may upon thirty (30) days prior written notice to Client, terminate the applicable Service.\n\t\t\tThe indemnification obligation contained in this Section 9 will be Client's sole remedy, and Smarsh's sole\n\t\t\tobligation, with respect to claims of infringement.\n\t\t15. Remedies and Limitation of Liability.\n\t\t  15.1. Remedies. In the event of a breach of any warranty under Section 13 Smarsh will use commercially\n\t\t\treasonable efforts to provide Client with an error correction or work-around that corrects the reported\n\t\t\tnon-conformity. In the event of a breach of the applicable Service Level Agreement (included in the\n\t\t\tService Specific Terms as applicable) Smarsh will provide Client with the credit stated in the Service Level\n\t\t\tAgreement. The foregoing remedies represent Client's sole and exclusive remedy for a breach of Section\n\t\t\t13 or the applicable Service Level Agreement.\n\t\t  15.2. Limitation of Liability. IN NO EVENT WILL EITHER PARTY BE LIABLE TO THE OTHER, OR TO ANY THIRD\n\t\t\tPARTY, FOR ANY SPECIAL, INDIRECT, INCIDENTAL, PUNITIVE, EXEMPLARY OR CONSEQUENTIAL DAMAGES\n\t\t\t(INCLUDING LOSS OF USE, DATA, BUSINESS OR PROFITS), ARISING OUT OF OR IN CONNECTION WITH\n\t\t\tTHE SERVICES OR SOFTWARE, WHETHER BASED ON BREACH OF CONTRACT, BREACH OF WARRANTY,\n\t\t\tTORT (INCLUDING NEGLIGENCE), OR OTHERWISE, REGARDLESS OF WHETHER SUCH DAMAGES WERE\n\t\t\tFORESEEABLE OR WHETHER THE PARTY HAD BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.\n\t\t\tSMARSH'S AGGREGATE LIABILITY HEREUNDER FOR ALL DAMAGES ARISING UNDER OR RELATING TO THIS\n\t\t\tAGREEMENT, NOTWITHSTANDING THE FORM IN WHICH ANY ACTION IS BROUGHT (E.G., CONTRACT,\n\t\t\tTORT, OR OTHERWISE), WILL BE LIMITED TO THE TOTAL FEES ACTUALLY RECEIVED BY SMARSH FROM\n\t\t\tCLIENT FOR THE APPLICABLE SERVICES IN THE TWELVE (12) MONTH PERIOD PRECEDING THE MONTH IN\n\t\t\tWHICH THE INCIDENT CAUSING THE DAMAGES AROSE. THE LIMITATION ON LIABILITY SET FORTH ABOVE\n\t\t\tIS CUMULATIVE; ALL PAYMENTS MADE FOR ALL CLAIMS AND DAMAGES WILL BE AGGREGATED TO\n\t\t\tDETERMINE IF THE LIMIT HAS BEEN REACHED.\n\t\t  15.3. THE ABOVE LIMITATIONS OF LIABILITY REFLECT AN ALLOCATION OF RISK BETWEEN THE PARTIES IN\n\t\t\tVIEW OF THE FAVORABLE FEES CHARGED BY SMARSH RELATIVE TO THE SERVICES DESCRIBED HEREIN\n\t\t\tAND ARE MATERIAL TERMS HEREOF.\n\t\t16. General Terms.\n\t\t  16.1. Export Restrictions. The Services and Software (as defined in the Service Specific Terms) including any\n\t\t\tsoftware, documentation and any related technical data included with, or contained in the Services of\n\t\t\tSoftware, may be subject to United States export control laws and regulations. Smarsh Public IM policy\n\t\t\tmanager is classified under Export Control Classification Number (ECCN) 5D002.c.1, and has been\n\t\t\tqualified for export under authority of license exception ENC, in accordance with sections 740.17(d) and\n\t\t\t740.17(b)(3) of the U.S. Export Administration Regulations (EAR), 15 C.F.R. Part 730 et seq. (the \"EAR\"). It\n\t\t\tmay not be downloaded or otherwise exported or re-exported into (or to a national or resident of)\n\t\t\tCrimea- Region of Ukraine, Cuba, Iran, North Korea, Sudan, Syria or any other country to which the\n\t\t\tUnited States has embargoed goods; or any organization or company on the United States Commerce\n\t\t\tDepartment's \"Denied Parties List.\" Client will comply with the export laws and regulations of the United\n\t\t\tStates and other applicable jurisdictions in providing or using the Services. Client will not transfer the\n\t\t\tSoftware, or any other software or documentation provided by Smarsh (a) to any person on a\n\t\t  *6* 1-866-762-7741 www.smarsh.com y @SmarshInc f SmarshInc in Company/smarsh\n\t\t\t\t\t\t\t\t\t\t\n\t\t \n\t\t\t\t\t\t\t    \n\t\t\t\t    \n\t\t\t\t\t\t\t\t\t\t\t\t\n",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "section": "Section\n\t\t\t13",
+      "chunks": [
+        {
+          "content": "\t\t\tfunctionality provided to Client based on Client's specific requirements; (ii) any modification of the\n\t\t\tServices by Client or any third party; (iii) the combination of Services with any technology or other\n\t\t\tservices, software or technology not provided by Smarsh; or (iv) the failure of Client to use updated or\n\t\t\tmodified versions of the Services made available by Smarsh. If the Services are subject to a claim of\n\t\t\tinfringement of the intellectual property rights of a third party, Smarsh may, in its sole discretion, either\n\t\t\t(a) procure for Client the right to continue to use the Services; (b) modify the Services such that they are\n\t\t\tnon-infringing; or (c) if in the reasonable opinion of Smarsh, neither (a) nor (b) are commercially feasible,\n\t\t\tthen Smarsh may upon thirty (30) days prior written notice to Client, terminate the applicable Service.\n\t\t\tThe indemnification obligation contained in this Section 9 will be Client's sole remedy, and Smarsh's sole\n\t\t\tobligation, with respect to claims of infringement.\n\t\t15. Remedies and Limitation of Liability.\n\t\t  15.1. Remedies. In the event of a breach of any warranty under Section 13 Smarsh will use commercially\n\t\t\treasonable efforts to provide Client with an error correction or work-around that corrects the reported\n\t\t\tnon-conformity. In the event of a breach of the applicable Service Level Agreement (included in the\n\t\t\tService Specific Terms as applicable) Smarsh will provide Client with the credit stated in the Service Level\n\t\t\tAgreement. The foregoing remedies represent Client's sole and exclusive remedy for a breach of Section\n\t\t\t13 or the applicable Service Level Agreement.\n\t\t  15.2. Limitation of Liability. IN NO EVENT WILL EITHER PARTY BE LIABLE TO THE OTHER, OR TO ANY THIRD\n\t\t\tPARTY, FOR ANY SPECIAL, INDIRECT, INCIDENTAL, PUNITIVE, EXEMPLARY OR CONSEQUENTIAL DAMAGES\n\t\t\t(INCLUDING LOSS OF USE, DATA, BUSINESS OR PROFITS), ARISING OUT OF OR IN CONNECTION WITH\n\t\t\tTHE SERVICES OR SOFTWARE, WHETHER BASED ON BREACH OF CONTRACT, BREACH OF WARRANTY,\n\t\t\tTORT (INCLUDING NEGLIGENCE), OR OTHERWISE, REGARDLESS OF WHETHER SUCH DAMAGES WERE\n\t\t\tFORESEEABLE OR WHETHER THE PARTY HAD BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.\n\t\t\tSMARSH'S AGGREGATE LIABILITY HEREUNDER FOR ALL DAMAGES ARISING UNDER OR RELATING TO THIS\n\t\t\tAGREEMENT, NOTWITHSTANDING THE FORM IN WHICH ANY ACTION IS BROUGHT (E.G., CONTRACT,\n\t\t\tTORT, OR OTHERWISE), WILL BE LIMITED TO THE TOTAL FEES ACTUALLY RECEIVED BY SMARSH FROM\n\t\t\tCLIENT FOR THE APPLICABLE SERVICES IN THE TWELVE (12) MONTH PERIOD PRECEDING THE MONTH IN\n\t\t\tWHICH THE INCIDENT CAUSING THE DAMAGES AROSE. THE LIMITATION ON LIABILITY SET FORTH ABOVE\n\t\t\tIS CUMULATIVE; ALL PAYMENTS MADE FOR ALL CLAIMS AND DAMAGES WILL BE AGGREGATED TO\n\t\t\tDETERMINE IF THE LIMIT HAS BEEN REACHED.\n\t\t  15.3. THE ABOVE LIMITATIONS OF LIABILITY REFLECT AN ALLOCATION OF RISK BETWEEN THE PARTIES IN\n\t\t\tVIEW OF THE FAVORABLE FEES CHARGED BY SMARSH RELATIVE TO THE SERVICES DESCRIBED HEREIN\n\t\t\tAND ARE MATERIAL TERMS HEREOF.\n\t\t16. General Terms.\n\t\t  16.1. Export Restrictions. The Services and Software (as defined in the Service Specific Terms) including any\n\t\t\tsoftware, documentation and any related technical data included with, or contained in the Services of\n\t\t\tSoftware, may be subject to United States export control laws and regulations. Smarsh Public IM policy\n\t\t\tmanager is classified under Export Control Classification Number (ECCN) 5D002.c.1, and has been\n\t\t\tqualified for export under authority of license exception ENC, in accordance with sections 740.17(d) and\n\t\t\t740.17(b)(3) of the U.S. Export Administration Regulations (EAR), 15 C.F.R. Part 730 et seq. (the \"EAR\"). It\n\t\t\tmay not be downloaded or otherwise exported or re-exported into (or to a national or resident of)\n\t\t\tCrimea- Region of Ukraine, Cuba, Iran, North Korea, Sudan, Syria or any other country to which the\n\t\t\tUnited States has embargoed goods; or any organization or company on the United States Commerce\n\t\t\tDepartment's \"Denied Parties List.\" Client will comply with the export laws and regulations of the United\n\t\t\tStates and other applicable jurisdictions in providing or using the Services. Client will not transfer the\n\t\t\tSoftware, or any other software or documentation provided by Smarsh (a) to any person on a\n\t\t  *6* 1-866-762-7741 www.smarsh.com y @SmarshInc f SmarshInc in Company/smarsh\n\t\t\t\t\t\t\t\t\t\t\n\t\t \n\t\t\t\t\t\t\t    \n\t\t\t\t    \n\t\t\t\t\t\t\t\t\t\t\t\t\n",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "section": "Section 15.2",
+      "chunks": [
+        {
+          "content": "\t\t\tdeemed a waiver of any subsequent default of the terms and conditions thereof.\n\t\t  16.9. Electronic Signatures. The parties agree that electronic signatures, whether digital or encrypted, or click-\n\t\t\tthrough acceptance, by an Authorized User or a party's authorized signatory are intended to\n\t\t\tauthenticate such signatures and give rise to a valid, enforceable, and fully effective agreement. The\n\t\t\tparties expressly agree that any terms in Client's purchase order forms, or electronic communications\n\t\t\tform no part of this Agreement.\n\t\t 16.10. Modifications. Smarsh may make modifications to this Agreement by posting a revised version\n\t\t\tto www.smarsh.com/legal or via weblink at the Service login page. Client unequivocally indicates\n\t\t\tacceptance of any such modifications by (a) accepting the version of the Agreement with the modified\n\t\t\tterms at the product log in page; (b) executing an Order Form including the modified terms; or (c)\n\t\t\tcontinued use of the Services for 30 days following the earliest notice provided to an Authorized User\n\t\t\tof the modification.\n\t 17. WHERE CLIENT IS LOCATED IN EUROPE THE FOLLOWING MODIFICATIONS TO THE ABOVE TERMS APPLY:\n\t    17.1. Section 15.2 and 15.3 of this Agreement are replaced with the following Sections 15.2, 15.3 and the addition of 15.4:\n\t\t  17.1.1. \"15.2 Limitation of Consequential Damages. Subject to 15.4, in no event shall either party be liable under or\n\t\t\t in relation to this Agreement or its subject matter (whether such liability arises due to negligence, breach of\n\t\t\t contract, misrepresentation or for any other reason) for any: (a) loss of profits; (b) loss of sales; (c) loss of\n\t\t\t turnover; (d) loss of, or loss of use of, any (i) software or (ii) data; (e) loss of use of any computer or other\n\t\t\t equipment or plant; (f) wasted management or other staff time; (g) losses or liabilities under or in relation to\n\t\t\t any other contract; or (h) indirect, special or consequential loss or damage. 15.3 Limitation on Direct\n\t\t\t Damages. Subject to Sections 15.2 and 15.4, Smarsh's aggregate liability arising from or in connection with\n\t\t\t this Agreement (and whether the liability arises because of breach of contract, negligence,\n\t\t\t misrepresentation or for any other reason) shall not exceed 1.25 times the amounts paid or payable (having\n\t\t\t been invoiced but not yet paid) by you for the license to use the Service. 8.4 Notwithstanding anything to\n\t\t\t the contrary in this Agreement, neither party excludes or limits its liability in respect of death or personal\n\t\t\t injury caused by the negligence of that party, its servants or agents, breach of any condition as to title or\n\t\t\t quiet enjoyment implied by Section 12 Sale of Goods Act 1979 or Section 2 Supply of Goods and Services Act\n\t\t\t 1982, or liability for fraudulent misrepresentation or such other liability which cannot under applicable law\n\t\t\t be excluded or limited by Agreement.\"\n\t    17.2. Section 16.4 is replaced with the following: \"16.4 Governing Law and Jurisdiction. This Agreement and all matters\n\t\t  arising out of or relating to this Agreement shall be governed by the laws of England and Wales and the parties agree\n\t\t  to submit to the exclusive jurisdiction of the English courts. The parties agree that the United Nations Convention on\n\t\t  Contracts for the International Sale of Goods is specifically excluded from application to this Agreement.\n\t\t  Notwithstanding anything in this Agreement to the contrary, nothing in this Agreement prevents either party from\n\t\t  seeking injunctive relief in the appropriate or applicable forum.\"\n\t\t  *6* 1-866-762-7741 www.smarsh.com y @SmarshInc f SmarshInc in Company/smarsh\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t    \n\t\t\t\t    \n\t\t\t\t\t\t\t\t\t\t\t    \n",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "section": "Section 2",
+      "chunks": [
+        {
+          "content": "\t\t\tdeemed a waiver of any subsequent default of the terms and conditions thereof.\n\t\t  16.9. Electronic Signatures. The parties agree that electronic signatures, whether digital or encrypted, or click-\n\t\t\tthrough acceptance, by an Authorized User or a party's authorized signatory are intended to\n\t\t\tauthenticate such signatures and give rise to a valid, enforceable, and fully effective agreement. The\n\t\t\tparties expressly agree that any terms in Client's purchase order forms, or electronic communications\n\t\t\tform no part of this Agreement.\n\t\t 16.10. Modifications. Smarsh may make modifications to this Agreement by posting a revised version\n\t\t\tto www.smarsh.com/legal or via weblink at the Service login page. Client unequivocally indicates\n\t\t\tacceptance of any such modifications by (a) accepting the version of the Agreement with the modified\n\t\t\tterms at the product log in page; (b) executing an Order Form including the modified terms; or (c)\n\t\t\tcontinued use of the Services for 30 days following the earliest notice provided to an Authorized User\n\t\t\tof the modification.\n\t 17. WHERE CLIENT IS LOCATED IN EUROPE THE FOLLOWING MODIFICATIONS TO THE ABOVE TERMS APPLY:\n\t    17.1. Section 15.2 and 15.3 of this Agreement are replaced with the following Sections 15.2, 15.3 and the addition of 15.4:\n\t\t  17.1.1. \"15.2 Limitation of Consequential Damages. Subject to 15.4, in no event shall either party be liable under or\n\t\t\t in relation to this Agreement or its subject matter (whether such liability arises due to negligence, breach of\n\t\t\t contract, misrepresentation or for any other reason) for any: (a) loss of profits; (b) loss of sales; (c) loss of\n\t\t\t turnover; (d) loss of, or loss of use of, any (i) software or (ii) data; (e) loss of use of any computer or other\n\t\t\t equipment or plant; (f) wasted management or other staff time; (g) losses or liabilities under or in relation to\n\t\t\t any other contract; or (h) indirect, special or consequential loss or damage. 15.3 Limitation on Direct\n\t\t\t Damages. Subject to Sections 15.2 and 15.4, Smarsh's aggregate liability arising from or in connection with\n\t\t\t this Agreement (and whether the liability arises because of breach of contract, negligence,\n\t\t\t misrepresentation or for any other reason) shall not exceed 1.25 times the amounts paid or payable (having\n\t\t\t been invoiced but not yet paid) by you for the license to use the Service. 8.4 Notwithstanding anything to\n\t\t\t the contrary in this Agreement, neither party excludes or limits its liability in respect of death or personal\n\t\t\t injury caused by the negligence of that party, its servants or agents, breach of any condition as to title or\n\t\t\t quiet enjoyment implied by Section 12 Sale of Goods Act 1979 or Section 2 Supply of Goods and Services Act\n\t\t\t 1982, or liability for fraudulent misrepresentation or such other liability which cannot under applicable law\n\t\t\t be excluded or limited by Agreement.\"\n\t    17.2. Section 16.4 is replaced with the following: \"16.4 Governing Law and Jurisdiction. This Agreement and all matters\n\t\t  arising out of or relating to this Agreement shall be governed by the laws of England and Wales and the parties agree\n\t\t  to submit to the exclusive jurisdiction of the English courts. The parties agree that the United Nations Convention on\n\t\t  Contracts for the International Sale of Goods is specifically excluded from application to this Agreement.\n\t\t  Notwithstanding anything in this Agreement to the contrary, nothing in this Agreement prevents either party from\n\t\t  seeking injunctive relief in the appropriate or applicable forum.\"\n\t\t  *6* 1-866-762-7741 www.smarsh.com y @SmarshInc f SmarshInc in Company/smarsh\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t    \n\t\t\t\t    \n\t\t\t\t\t\t\t\t\t\t\t    \n",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "section": "Section 16.4",
+      "chunks": [
+        {
+          "content": "\t\t\tdeemed a waiver of any subsequent default of the terms and conditions thereof.\n\t\t  16.9. Electronic Signatures. The parties agree that electronic signatures, whether digital or encrypted, or click-\n\t\t\tthrough acceptance, by an Authorized User or a party's authorized signatory are intended to\n\t\t\tauthenticate such signatures and give rise to a valid, enforceable, and fully effective agreement. The\n\t\t\tparties expressly agree that any terms in Client's purchase order forms, or electronic communications\n\t\t\tform no part of this Agreement.\n\t\t 16.10. Modifications. Smarsh may make modifications to this Agreement by posting a revised version\n\t\t\tto www.smarsh.com/legal or via weblink at the Service login page. Client unequivocally indicates\n\t\t\tacceptance of any such modifications by (a) accepting the version of the Agreement with the modified\n\t\t\tterms at the product log in page; (b) executing an Order Form including the modified terms; or (c)\n\t\t\tcontinued use of the Services for 30 days following the earliest notice provided to an Authorized User\n\t\t\tof the modification.\n\t 17. WHERE CLIENT IS LOCATED IN EUROPE THE FOLLOWING MODIFICATIONS TO THE ABOVE TERMS APPLY:\n\t    17.1. Section 15.2 and 15.3 of this Agreement are replaced with the following Sections 15.2, 15.3 and the addition of 15.4:\n\t\t  17.1.1. \"15.2 Limitation of Consequential Damages. Subject to 15.4, in no event shall either party be liable under or\n\t\t\t in relation to this Agreement or its subject matter (whether such liability arises due to negligence, breach of\n\t\t\t contract, misrepresentation or for any other reason) for any: (a) loss of profits; (b) loss of sales; (c) loss of\n\t\t\t turnover; (d) loss of, or loss of use of, any (i) software or (ii) data; (e) loss of use of any computer or other\n\t\t\t equipment or plant; (f) wasted management or other staff time; (g) losses or liabilities under or in relation to\n\t\t\t any other contract; or (h) indirect, special or consequential loss or damage. 15.3 Limitation on Direct\n\t\t\t Damages. Subject to Sections 15.2 and 15.4, Smarsh's aggregate liability arising from or in connection with\n\t\t\t this Agreement (and whether the liability arises because of breach of contract, negligence,\n\t\t\t misrepresentation or for any other reason) shall not exceed 1.25 times the amounts paid or payable (having\n\t\t\t been invoiced but not yet paid) by you for the license to use the Service. 8.4 Notwithstanding anything to\n\t\t\t the contrary in this Agreement, neither party excludes or limits its liability in respect of death or personal\n\t\t\t injury caused by the negligence of that party, its servants or agents, breach of any condition as to title or\n\t\t\t quiet enjoyment implied by Section 12 Sale of Goods Act 1979 or Section 2 Supply of Goods and Services Act\n\t\t\t 1982, or liability for fraudulent misrepresentation or such other liability which cannot under applicable law\n\t\t\t be excluded or limited by Agreement.\"\n\t    17.2. Section 16.4 is replaced with the following: \"16.4 Governing Law and Jurisdiction. This Agreement and all matters\n\t\t  arising out of or relating to this Agreement shall be governed by the laws of England and Wales and the parties agree\n\t\t  to submit to the exclusive jurisdiction of the English courts. The parties agree that the United Nations Convention on\n\t\t  Contracts for the International Sale of Goods is specifically excluded from application to this Agreement.\n\t\t  Notwithstanding anything in this Agreement to the contrary, nothing in this Agreement prevents either party from\n\t\t  seeking injunctive relief in the appropriate or applicable forum.\"\n\t\t  *6* 1-866-762-7741 www.smarsh.com y @SmarshInc f SmarshInc in Company/smarsh\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t    \n\t\t\t\t    \n\t\t\t\t\t\t\t\t\t\t\t    \n",
+          "page": 9
+        }
+      ]
+    }
+  ]
+}
